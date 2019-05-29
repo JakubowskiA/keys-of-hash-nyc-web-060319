@@ -4,10 +4,10 @@ class Hash
     arguments.each_with_index do |string, index|
       self.each do |species,location|
         if location == args[index]
-          return_arr << species
+          array << species
         end
       end
     end
-    return_arr
+    array
   end
 end
