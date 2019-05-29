@@ -3,7 +3,6 @@ class Hash
   def keys_of(*arguments)
     array = []
      arguments.each do |string, index|
-       binding.pry
       self.each do |species, location|
         if location == arguments[index]
           array << species
