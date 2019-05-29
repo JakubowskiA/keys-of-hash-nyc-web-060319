@@ -1,6 +1,6 @@
 require "pry"
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     array = []
     arguments.each do |string, index|
       self.each do |species, location|
